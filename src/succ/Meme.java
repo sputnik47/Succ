@@ -3,7 +3,6 @@ package succ;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
@@ -60,5 +59,6 @@ public class Meme extends JPanel implements ActionListener {
 		earrape_open = true;
 		audio.playSound(succ, 6.0f);
 	}
+	
 	
 }
